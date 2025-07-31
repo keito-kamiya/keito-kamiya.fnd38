@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+   <title>ホスピー</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+ <h1 id="title2">何をお手伝いしましょう(^^)♪</h1>
+ <div class="display-flex">
+  <img id="carimg" src="car.png" title="駐車場" class="image">
+  <img id="taxiimg" src="taxi.png" title="タクシー" class="image">
+  <img id="mapimg" src="map.png" title="院内地図" class="image">
+ </div>
+  
+ <div class="display-flex">
+  <img id="drugimg" src="drug.png" title="お薬" class="image"> 
+  <img id="scheduleimg" src="schedule.png" title="次回受診" class="image">
+  <img id="timeimg" src="time.png" title="待ち時間" class="image">
+ </div>
+  
+ <div class="display-flex">
+  <img id="messageimg" src="message.png" title="メッセージ" class="image" >
+  <img id="onlineimg" src="online.png" title="オンライン受診" class="image">
+  <img id="translation" src="translation.png" title="翻訳" class="image">
+ </div>
+
+ <div id="drugpopup" class="popup">
+ <div class="popup-content">
+  <p>A錠剤 1錠/食<br>処方量10錠<br>服用5日目<br>残薬数5錠</p>
+  <button id="close-drug-popup">閉じる</button>
+ </div>
+ </div>
+
+ <div id="schedulepopup" class="popup">
+ <div class="popup-content">
+  <p>8月4日<br>9時00分：MRI検査<br>10時30分：整形外科受診<br>※予約30分前までに来院してください</p>
+  <button id="close-schedule-popup">閉じる</button>
+ </div>
+ </div>
+
+ <div id="timepopup" class="popup">
+ <div class="popup-content">
+  <p>診察は順調に進んでいます。<br>あなたの呼び出しまで30分</p>
+  <button id="close-time-popup">閉じる</button>
+ </div>
+ </div>
+
+ <div id="taxipopup" class="popup">
+ <div class="popup-content">
+  <p>Bタクシー<br>TEL：000-111-222<br>Cタクシー<br>TEL：333-444-555</p>
+  <button id="close-taxi-popup">閉じる</button>
+ </div>
+ </div>
+
+<script src="script2.js"></script>
+</body>
+</html>
